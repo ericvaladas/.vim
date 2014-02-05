@@ -4,7 +4,7 @@ syntax on
 filetype plugin indent on
 
 set number
-set shiftwidth=4 softtabstop=4
+set tabstop=8 expandtab shiftwidth=4 softtabstop=4
 set guifont=consolas:h13
 
 set colorcolumn=80
