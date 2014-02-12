@@ -18,3 +18,5 @@ let g:syntastic_enable_signs = 0
 set hlsearch
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
+autocmd BufWritePre * :%s/\s\+$//e
+
