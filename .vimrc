@@ -9,9 +9,9 @@ set guifont=consolas:h13
 
 set colorcolumn=80
 let g:SuperTabLongestHighlight = 1
-let g:SuperTabDefaultCompletionType = "<C-X><C-O>"
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python setlocal completeopt-=preview
+
 let g:syntastic_python_checkers = []
 let g:syntastic_enable_signs = 0
 
