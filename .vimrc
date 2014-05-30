@@ -15,6 +15,8 @@ autocmd FileType python setlocal completeopt-=preview
 let g:syntastic_python_checkers = []
 let g:syntastic_enable_signs = 0
 
+let g:jedi#show_call_signatures = "0"
+
 set hlsearch
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
