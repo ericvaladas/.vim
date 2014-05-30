@@ -22,3 +22,5 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
+set wildignore+=*.pyc
+let g:netrw_list_hide= '.*\.pyc$'
