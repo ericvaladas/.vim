@@ -5,7 +5,7 @@ filetype plugin indent on
 
 set number
 set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
-set guifont=consolas:h15
+set guifont=consolas:h14
 
 set colorcolumn=80
 let g:SuperTabLongestHighlight = 1
