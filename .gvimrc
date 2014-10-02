@@ -19,4 +19,3 @@ highlight Cursor guifg=white guibg=black
 
 set guioptions-=r
 set guioptions-=L
-

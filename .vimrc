@@ -12,6 +12,8 @@ let g:SuperTabLongestHighlight = 1
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python setlocal completeopt-=preview
 
+autocmd BufNewfile,BufRead *.styl set filetype=stylus
+
 let g:syntastic_python_checkers = []
 let g:syntastic_enable_signs = 0
 
