@@ -15,6 +15,7 @@ colorscheme lucario
 " Custom colours for lucario theme
 highlight NonText guifg=#2b3e50 guibg=NONE
 highlight SpellBad guifg=#570707 guibg=#D64D53 gui=NONE
+highlight ColorColumn guibg=#2F4254
 
 set guioptions-=r
 set guioptions-=L
