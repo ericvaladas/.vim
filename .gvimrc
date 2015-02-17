@@ -16,6 +16,7 @@ colorscheme lucario
 highlight NonText guifg=#2b3e50 guibg=NONE
 highlight SpellBad guifg=#570707 guibg=#D64D53 gui=NONE
 highlight ColorColumn guibg=#2F4254
+highlight VertSplit guibg=NONE guifg=#2F4254
 
 set guioptions-=r
 set guioptions-=L
