@@ -28,6 +28,11 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python setlocal completeopt-=preview
 autocmd FileType * set colorcolumn=0
 autocmd FileType python let &colorcolumn=join(range(80,999),",")
+autocmd FileType ruby set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
+autocmd FileType coffescript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
+autocmd FileType javascript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
+autocmd FileType scss set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
+autocmd FileType sass set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 
 autocmd BufNewfile,BufRead *.styl set filetype=stylus
 
