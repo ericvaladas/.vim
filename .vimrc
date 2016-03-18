@@ -22,19 +22,25 @@ set foldcolumn=1
 set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 set guifont=consolas:h14
 set nowrap
+set backspace=2
 
 let g:SuperTabLongestHighlight = 1
+
+autocmd BufNewfile,BufRead *.styl set filetype=stylus
+autocmd BufNewfile,BufRead *.html set filetype=html
+
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python setlocal completeopt-=preview
 autocmd FileType * set colorcolumn=0
 autocmd FileType python let &colorcolumn=join(range(80,999),",")
+autocmd FileType html set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 autocmd FileType ruby set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType coffescript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType javascript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType scss set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType sass set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
+autocmd FileType stylus set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 
-autocmd BufNewfile,BufRead *.styl set filetype=stylus
 
 let g:syntastic_python_checkers = []
 let g:syntastic_enable_signs = 0
