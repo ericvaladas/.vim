@@ -14,6 +14,7 @@
 " highlight FoldColumn guibg=NONE
 
 " Custom colours for lucario theme
+set background=dark
 colorscheme lucario
 highlight NonText guifg=#2b3e50 guibg=NONE
 highlight SpellBad guifg=#570707 guibg=#D64D53 gui=NONE
