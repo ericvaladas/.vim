@@ -20,7 +20,6 @@ highlight FoldColumn ctermbg=231
 set foldcolumn=1
 "set number
 set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
-set guifont=SFMono-Regular:h13
 set nowrap
 set backspace=2
 
