@@ -24,6 +24,7 @@ set nowrap
 set backspace=2
 
 let g:SuperTabLongestHighlight = 1
+let g:jsx_ext_required = 0
 
 autocmd BufNewfile,BufRead *.styl set filetype=stylus
 autocmd BufNewfile,BufRead *.html set filetype=html
