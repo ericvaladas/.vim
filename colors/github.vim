@@ -1,5 +1,6 @@
 set background=light
-hi clear
+highlight clear
+
 if exists("syntax_on")
     syntax reset
 endif
@@ -14,12 +15,22 @@ highlight   Number                  guifg=#0086b3
 highlight   Type                    guifg=#0086b3 gui=NONE
 highlight   String                  guifg=#183691
 highlight   Include                 guifg=#ed6a43
+highlight   Constant                guifg=#ed6a43
 highlight   Special                 guifg=#ed6a43
 highlight   Comment                 guifg=#969896
 highlight   Normal                  guifg=#333333
-highlight   FoldColumn              guibg=#ffffff
-highlight   NonText                 guifg=#ffffff
 highlight   Function                guifg=#795da3
+highlight   FoldColumn              guibg=NONE
+highlight   NonText                 guifg=#ffffff
+highlight   LineNr                  guifg=#cccccc
+highlight   VertSplit               guifg=#f4f4f4 guibg=NONE gui=NONE
+highlight   Search                  guifg=#4f4218 guibg=#f7e681 gui=NONE
+highlight   Visual                  guibg=#dbebff
+highlight   MatchParen              guibg=#d4e9fa
+highlight   Cursor                  guifg=#000000 guibg=#cccecf
+highlight   CursorLine              guibg=#dbebff
+highlight   StatusLine              guifg=#888888 guibg=#ffffff
+highlight   StatusLineNC            guifg=#bbbbbb guibg=#ffffff
 
 highlight   jsFuncCall              guifg=#795da3
 highlight   jsModuleOperators       guifg=#a71d5d
@@ -31,3 +42,6 @@ highlight   jsModuleAsterisk        guifg=#ed6a43
 
 highlight   javaScriptNull          guifg=#0086b3
 highlight   javaScriptNumber        guifg=#0086b3
+
+highlight   xmlTag                  guifg=#795da3
+highlight   xmlEndTag               guifg=#795da3
