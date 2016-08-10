@@ -13,6 +13,7 @@ highlight   Statement               guifg=#a71d5d gui=NONE
 highlight   Boolean                 guifg=#0086b3
 highlight   Number                  guifg=#0086b3
 highlight   Type                    guifg=#0086b3 gui=NONE
+highlight   Directory               guifg=#0086b3
 highlight   String                  guifg=#183691
 highlight   Include                 guifg=#ed6a43
 highlight   Constant                guifg=#ed6a43
