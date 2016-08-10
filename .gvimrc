@@ -1,4 +1,4 @@
-set guifont=SFMono-Regular:h13
+set guifont=SFMono-Regular:h12
 set linespace=2
 
 " Custom colours for tutticolori theme
