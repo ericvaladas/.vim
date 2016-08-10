@@ -50,3 +50,8 @@ highlight   htmlTag                 guifg=#795da3
 highlight   htmlEndTag              guifg=#795da3
 highlight   htmlTitle               guifg=#333333 gui=NONE
 highlight   htmlLink                guifg=#333333 gui=NONE
+
+highlight   Pmenu                   guifg=#3b4a3a guibg=#c6ebc2
+highlight   PmenuSel                guibg=#76d16d
+highlight   PmenuSbar               guibg=#8CA689
+highlight   PmenuThumb              guibg=#566654
