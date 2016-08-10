@@ -45,3 +45,8 @@ highlight   javaScriptNumber        guifg=#0086b3
 
 highlight   xmlTag                  guifg=#795da3
 highlight   xmlEndTag               guifg=#795da3
+
+highlight   htmlTag                 guifg=#795da3
+highlight   htmlEndTag              guifg=#795da3
+highlight   htmlTitle               guifg=#333333 gui=NONE
+highlight   htmlLink                guifg=#333333 gui=NONE
