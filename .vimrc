@@ -19,7 +19,7 @@ highlight FoldColumn ctermbg=231
 
 set foldcolumn=1
 "set number
-set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
+set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 set nowrap
 set backspace=2
 
@@ -33,7 +33,9 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType python setlocal completeopt-=preview
 autocmd FileType * set colorcolumn=0
 autocmd FileType python let &colorcolumn=join(range(80,999),",")
+autocmd FileType python set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 autocmd FileType html set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
+autocmd BufRead,BufNewFile *.hbs set tabstop=4 expandtab shiftwidth=4 softtabstop=4 autoindent
 autocmd FileType ruby set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType coffescript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 autocmd FileType javascript set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
