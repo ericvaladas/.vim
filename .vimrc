@@ -54,6 +54,5 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
-set wildignore+=*.pyc
-set wildignore+=node_modules
+set wildignore+=*.pyc,node_modules,tmp,bower_components,dist
 let g:netrw_list_hide= '.*\.pyc$'
