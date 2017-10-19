@@ -5,8 +5,9 @@ set linespace=2
 
 " colorscheme tutticolori
 colorscheme github
+highlight ColorColumn guibg=#FAFAFA ctermbg=255
+"
 " highlight NonText guifg=#FFFFFF guibg=#FFFFFF gui=NONE ctermbg=NONE ctermfg=NONE
-" highlight ColorColumn guibg=#FAFAFA ctermbg=255
 " highlight LineNr guifg=#CCCCCC guibg=#FFFFFF ctermfg=251 ctermbg=NONE
 " highlight Normal guibg=#FFFFFF ctermbg=NONE
 " highlight Pmenu guibg=#D2F9CE guifg=#3B4A3A ctermbg=194 ctermfg=022
