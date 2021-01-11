@@ -2,10 +2,10 @@ execute pathogen#infect()
 let macvim_skip_colorscheme = 1
 syntax on
 filetype plugin indent on
+
 colorscheme tutticolori
 
 " Custom colours for tutticolori theme
-
 highlight NonText ctermbg=231 ctermfg=231
 highlight ColorColumn ctermbg=255
 highlight LineNr ctermfg=251 ctermbg=231
@@ -18,7 +18,6 @@ highlight Search ctermfg=094 ctermbg=228
 highlight FoldColumn ctermbg=231
 
 set foldcolumn=1
-"set number
 set tabstop=2 expandtab shiftwidth=2 softtabstop=2 autoindent
 set nowrap
 set backspace=2
@@ -56,3 +55,5 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 set wildignore+=*.pyc,node_modules,tmp,bower_components,dist
 let g:netrw_list_hide= '.*\.pyc$'
+
+set fillchars+=vert:│

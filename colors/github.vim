@@ -20,11 +20,11 @@ highlight   Constant                guifg=#ed6a43
 highlight   Special                 guifg=#ed6a43
 highlight   Comment                 guifg=#969896
 highlight   Normal                  guifg=#333333
-highlight   Function                guifg=#795da3
+highlight   Function                guifg=#6f42c1
 highlight   FoldColumn              guibg=NONE
 highlight   NonText                 guifg=#ffffff
 highlight   LineNr                  guifg=#cccccc
-highlight   VertSplit               guifg=#f4f4f4 guibg=NONE gui=NONE
+highlight   VertSplit               guifg=#f0f0f0 guibg=NONE gui=NONE
 highlight   Search                  guifg=#4f4218 guibg=#f7e681 gui=NONE
 highlight   Visual                  guibg=#dbebff
 highlight   MatchParen              guibg=#d4e9fa
@@ -33,7 +33,7 @@ highlight   CursorLine              guibg=#dbebff
 highlight   StatusLine              guifg=#888888 guibg=#ffffff
 highlight   StatusLineNC            guifg=#bbbbbb guibg=#ffffff
 
-highlight   jsFuncCall              guifg=#795da3
+highlight   jsFuncCall              guifg=#6f42c1
 highlight   jsModuleOperators       guifg=#a71d5d
 highlight   jsArrowFunction         guifg=#a71d5d
 highlight   jsModuleKeywords        guifg=#a71d5d
@@ -44,11 +44,11 @@ highlight   jsModuleAsterisk        guifg=#ed6a43
 highlight   javaScriptNull          guifg=#0086b3
 highlight   javaScriptNumber        guifg=#0086b3
 
-highlight   xmlTag                  guifg=#795da3
-highlight   xmlEndTag               guifg=#795da3
+highlight   xmlTag                  guifg=#6f42c1
+highlight   xmlEndTag               guifg=#6f42c1
 
-highlight   htmlTag                 guifg=#795da3
-highlight   htmlEndTag              guifg=#795da3
+highlight   htmlTag                 guifg=#6f42c1
+highlight   htmlEndTag              guifg=#6f42c1
 highlight   htmlTitle               guifg=#333333 gui=NONE
 highlight   htmlLink                guifg=#333333 gui=NONE
 
